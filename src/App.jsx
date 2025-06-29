@@ -6,12 +6,12 @@ import { getFirestore, collection, addDoc, onSnapshot, doc, deleteDoc, query, wr
 
 // --- Firebase and App Config ---
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyC3FEeCJqFJ-G6IQcUVOPGg2cGccoezNbo",
+  authDomain: "contentpilot-c0774.firebaseapp.com",
+  projectId: "contentpilot-c0774",
+  storageBucket: "contentpilot-c0774.appspot.com",
+  messagingSenderId: "285644357355",
+  appId: "1:285644357355:web:44ec2289690fed5d9b88ae"
 };
 const appId = 'default-app-id';
 
